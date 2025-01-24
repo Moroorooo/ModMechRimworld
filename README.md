@@ -13,8 +13,8 @@ Mod này cho phép bạn chỉnh sửa thông số tiêu thụ năng lượng h�
 
 2. **Chỉnh sửa thông số tiêu thụ năng lượng**:  
    - Mở file XML bằng bất kỳ trình soạn thảo văn bản nào (ví dụ: Notepad++, Visual Studio Code, hoặc Notepad).
-   - Tìm đến dòng `<defaultBaseValue>0.1</defaultBaseValue>`. Giá trị `0.1` tương ứng với 10% tiêu thụ năng lượng mỗi ngày.
-   - Thay đổi giá trị `0.1` thành giá trị bạn mong muốn. Ví dụ, nếu bạn muốn Mech chỉ tiêu thụ 5% năng lượng mỗi ngày, hãy thay đổi thành `0.05`. Nếu bạn muốn Mech tiêu thụ 20% năng lượng mỗi ngày, hãy thay đổi thành `0.2`.
+   - Tìm đến dòng `<defaultBaseValue>0.1</defaultBaseValue>`. Giá trị `0.1` tương ứng với 1% tiêu thụ năng lượng mỗi ngày.
+   - Thay đổi giá trị `0.1` thành giá trị bạn mong muốn. Ví dụ, nếu bạn muốn Mech chỉ tiêu thụ 5% năng lượng mỗi ngày, hãy thay đổi thành `0.5`. Nếu bạn muốn Mech tiêu thụ 20% năng lượng mỗi ngày, hãy thay đổi thành `2`.
 
    ```xml
    <StatDef ParentName="MechStatBase">
@@ -37,10 +37,10 @@ Mod này cho phép bạn chỉnh sửa thông số tiêu thụ năng lượng h�
 ## Ví dụ
 
 - **Giảm tiêu thụ năng lượng**:  
-  Nếu bạn muốn Mech chỉ tiêu thụ 5% năng lượng mỗi ngày, hãy thay đổi `<defaultBaseValue>0.1</defaultBaseValue>` thành `<defaultBaseValue>0.05</defaultBaseValue>`.
+  Nếu bạn muốn Mech chỉ tiêu thụ 5% năng lượng mỗi ngày, hãy thay đổi `<defaultBaseValue>0.1</defaultBaseValue>` thành `<defaultBaseValue>0.5</defaultBaseValue>`.
 
 - **Tăng tiêu thụ năng lượng**:  
-  Nếu bạn muốn Mech tiêu thụ 20% năng lượng mỗi ngày, hãy thay đổi `<defaultBaseValue>0.1</defaultBaseValue>` thành `<defaultBaseValue>0.2</defaultBaseValue>`.
+  Nếu bạn muốn Mech tiêu thụ 20% năng lượng mỗi ngày, hãy thay đổi `<defaultBaseValue>0.1</defaultBaseValue>` thành `<defaultBaseValue>2</defaultBaseValue>`.
 
 ## Lưu ý
 
