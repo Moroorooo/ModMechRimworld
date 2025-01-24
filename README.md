@@ -52,3 +52,4 @@ Mod này cho phép bạn chỉnh sửa thông số tiêu thụ năng lượng h�
 Nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi, vui lòng liên hệ qua repository hoặc để lại issue trên GitHub.
 
 Chúc bạn chơi game vui vẻ!
+> **Moroorooo**
